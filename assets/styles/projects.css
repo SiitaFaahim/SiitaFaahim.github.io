@@ -94,7 +94,7 @@ main{
     font-weight: 500;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     header{
         font-size: 16px;
     }
@@ -117,20 +117,16 @@ main{
         display: flex;
         flex-direction: column;
         width: 75vw;
-        height: 95vh;
-        gap: 0;
+        height: 100vh;
     }
      main .box{
         width: 100%;
         height: 100%;
         margin-top: 10vb;
-    }
+        margin-bottom: 10vb;
+    }  
 }
-@media (max-height: 700px) {
-    main .box{
-        padding: 5vb 0;
-    }
-}
+
 
 .active{
     border-radius: 2px;
@@ -162,7 +158,7 @@ a{
     filter: opacity(80%);
     height: auto;
     width: 45vb;
-    position: absolute;
+    position: fixed;
     z-index: -1;
     transition: transform 0.3s ease-in-out;
 }
